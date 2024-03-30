@@ -1,0 +1,181 @@
+.aboutHome {
+  height: auto;
+  padding-top: 116px; /* Add padding to push the content below the background */
+}
+
+.aboutHome .container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure flex items wrap when needed */
+}
+
+.aboutHome .left,
+.aboutHome .right {
+  flex: 1; /* Make both left and right sections take equal space */
+  padding: 0 20px; /* Add padding to both left and right sections */
+  height: auto;
+}
+
+.aboutHome .left img {
+  width: 100%; /* Set image width to fill its container */
+  height: auto; /* Allow image height to adjust automatically */
+}
+
+.aboutHome .right {
+  padding-top: 116px; /* Adjust top padding */
+  padding-bottom: 50px; /* Adjust bottom padding */
+}
+
+.aboutHome .items {
+  margin-top: 50px;
+}
+
+.aboutHome .item {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.aboutHome .img {
+  width: 200px;
+}
+
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+
+.aboutHome .item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff; /* Heading color */
+}
+
+.aboutHome .item p {
+  color: #999999; /* Text color */
+}
+
+/* Remove hover effect */
+.aboutHome .item:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.15
+  ); /* Apply glassmorphism effect with reduced opacity */
+  backdrop-filter: blur(
+    10px
+  ); /* Add a backdrop filter for a frosted glass effect */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.aboutHome .item:hover h2 {
+  color: #ffffff; /* Change text color on hover */
+}
+
+/* Remove hover effect */
+.aboutHome .item:hover p {
+  color: inherit;
+}
+
+.aboutHome .text:hover {
+  color: white;
+}
+
+/* awrapper styles remain the same */
+.awrapper {
+  background-image: url("../../../public/images/about.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: #fff;
+}
+
+.awrapper .box {
+  padding: 70px 0;
+}
+
+.awrapper img {
+  margin-right: 30px;
+}
+
+.awrapper h1 {
+  font-size: 50px;
+}
+
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1100px) {
+  .left img {
+    width: 100%;
+    height: auto;
+    margin-left: 60px;
+  }
+  
+  .margin{
+    height: 0px !important;
+  }
+  .container {
+    max-width:100vw !important;
+    overflow-x: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .left {
+    padding-left: 0 !important;
+  }
+  .left,
+  .right {
+    width: 100%; /* Make left and right sections take full width */
+    padding: 20px; /* Add padding to both left and right sections */
+  }
+
+  .aboutHome .container {
+    flex-direction: column;
+  }
+
+  .aboutHome .row {
+    width: 100%;
+  }
+
+  .awrapper {
+    height: auto !important;
+  }
+
+  .item {
+    width: 90vw !important;
+  }
+
+  .items {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .right {
+    padding: 0 !important;
+  }
+.h-gl {
+  width: 100vw !important;
+  height: 100vw !important;
+
+}
+}
+
+#globeViz {
+  width: 80vw;
+  margin-left: -30vw;
+  background: white;
+}
+
+.globevid {
+  margin-top: 15vh;
+  margin-left: -5vw;
+}
+
+.left {
+  padding: 116px 20px; /* Adjust left section padding */
+}
+
