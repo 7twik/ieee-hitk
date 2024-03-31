@@ -268,3 +268,14 @@ body::-webkit-scrollbar {
 .disflex{
   display: flex;
 }
+@media screen and (max-width: 768px)
+{
+  .mobile-nav {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: #1eb2a6;
+    z-index: 10;
+}
+}
