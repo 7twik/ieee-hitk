@@ -66,7 +66,7 @@ const EEventPage = () => {
           {/* Event gallery */}
           <div className="event-gallery overflow-x-auto mb-6">
             <h2 className="text-lg font-semibold mb-4 text-white">Event Gallery</h2>
-            <div className="flex gap-4">
+            <div className="flex gap-4 hori121">
               {item?.EventGallery.map((image, index) => (
                 <img
                   key={index}

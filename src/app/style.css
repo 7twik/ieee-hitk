@@ -47,7 +47,7 @@
   }
   .flex {
     display: flex !important;
-    flex-direction: column !important;
+    flex-direction: column;
   }
   .img {
     display: flex !important;
