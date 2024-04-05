@@ -114,3 +114,21 @@
     display: none; /* Hide details on smaller screens */
   }
 }
+.overlay a {
+  background-color: gray; /* Set default background color */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  border-radius: 50%; /* Make the icons rounded */
+  margin: 5px; /* Adjust margin as needed */
+}
+
+.overlay a:hover {
+  background-color: #1eb2a6; /* Change background color to green on hover */
+}
+
+.overlay a svg {
+  color: white; /* Set default icon color */
+}

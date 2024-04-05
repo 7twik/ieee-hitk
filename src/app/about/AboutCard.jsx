@@ -2,7 +2,6 @@
 import Heading from "@com/heading/Heading"
 import "./about.css"
 import { homeAbout } from "@const/dummydata"
-import Awrapper from "./Awrapper"
 import LongText from "../LongText"
 // import Globe from 'react-globe.gl';
 //import {GlobeOut} from "./GlobeOut"
