@@ -1,28 +1,27 @@
 import React from "react";
-import { blog } from "@const/dummydata";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMap,faPhoneAlt,faPaperPlane,  faHeart } from "@fortawesome/free-solid-svg-icons";
-import { AnimatedTooltipPreview } from "./Tips";
+import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedinIn, faTwitter, faInstagram, faHeart } from "@fortawesome/free-brands-svg-icons";
+import { AnimatedTooltipPreview } from "./tips";
+
 const Footer = () => {
   return (
     <>
-     
-      <footer>
-        <div  className="container padding">
-          <div className="box logo">
-            <h1 className="text-white">IEEE-HITK</h1>
-            <span>Advance Technology for humanity</span>
-            <p>
-              A small river named Duden flows by their place and supplies it
-              with the necessary regelialia.
-            </p>
-
-            <i className="fab fa-facebook-f icon"></i>
-            <i className="fab fa-twitter icon"></i>
-            <i className="fab fa-instagram icon"></i>
-          </div>
-          <div className="box link">
+      <footer className="py-12">
+        <div className="container mx-auto flex justify-between items-center">
+          <div className="flex justify-start items-center">
+            
+            <div className="box logo">
+              <h1 className="text-white text-2xl font-bold">IEEE-HITK</h1>
+              <span className="text-gray-400 text-sm">Advance Technology for humanity</span>
+              
+              <div className="flex mt-4">
+                <FontAwesomeIcon icon={faLinkedinIn} className="text-blue-500 text-2xl mr-4 hover:text-blue-500 transition duration-300" style={{color: "#1eb2a6"}} />
+                <FontAwesomeIcon icon={faTwitter} className="text-blue-500 text-2xl mr-4 hover:text-blue-500 transition duration-300" style={{color: "#1eb2a6"}} />
+                <FontAwesomeIcon icon={faInstagram} className="text-blue-500 text-2xl mr-4 hover:text-blue-500 transition duration-300" style={{color: "#1eb2a6"}} />
+              </div>
+              <div className="box link">
             <h3 className="text-white">Explore</h3>
             <ul>
               <li className="text-white">About Us</li>
@@ -31,42 +30,32 @@ const Footer = () => {
               <li className="text-white">Contact us</li>
             </ul>
           </div>
-          <div className="box link">
-            <h3 className="text-white">Quick Links</h3>
-            <ul>
-              <li className="text-white">Terms & Conditions</li>
-              <li className="text-white">Privacy</li>
-              <li className="text-white">Feedbacks</li>
-            </ul>
+            </div>
           </div>
           <div className="boxxxx">
             <h2 style={{color:"white"}}>Meet the devs!</h2>
             <AnimatedTooltipPreview />
           </div>
-          <div className="box last">
-            <h3 className="text-white">Have a Questions?</h3>
-            <ul className="text-white">
-              <li>
-              <FontAwesomeIcon  icon={faMap} />
-                Anandapur near Urbana complex, Kolkata
-              </li>
-              <li>
-              <FontAwesomeIcon  icon={ faPhoneAlt } />
-                9382305863
-              </li>
-              <li>
-              <FontAwesomeIcon  icon={ faPaperPlane } />
-                ieee@gmail.com
-              </li>
-            </ul>
-          </div>
+          <div className="box contact-us mr-6">
+              <h3 className="text-white text-lg font-semibold">Contact Us</h3>
+              <div className="text-gray-400 text-sm mt-2">
+                <p>
+                  <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
+                  <a href="mailto:support@admin.com" className="hover:text-blue-500">support@admin.com</a>
+                </p>
+                <p>
+                  <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
+                  <a href="tel:+917007886700" className="hover:text-blue-500">(+91)700-788-67-00</a>
+                </p>
+              </div>
+            </div>
         </div>
       </footer>
-      <div className="legal">
-        <p>
-          Copyright ©2024 All rights reserved | This template is made {" "}
-          <FontAwesomeIcon  icon={ faHeart} />
-            by Arnab Chakraborty
+
+      <div className="legal bg-gray-800 py-4 text-center">
+        <p className="text-gray-400 text-sm">
+          Copyright ©2024 All rights reserved | This template is made{" "}
+          <FontAwesomeIcon icon={faHeart} className="text-red-500" /> by
         </p>
       </div>
     </>

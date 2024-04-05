@@ -1,5 +1,11 @@
 import { useState, useEffect } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faSignalMessenger,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import "./team.css";
 const facultyCard = () => {
   const [faculty, setFaculty] = useState([]);
 
@@ -31,8 +37,15 @@ const facultyCard = () => {
           <div className="img">
             <img src={val.Image} alt="" />
             <div className="overlay">
-              <i className="fab fa-facebook-f icon"></i>
-              <i className="fab fa-twitter icon"></i>
+            <a href={val.Li} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                </a>
+                <a href={val.Tw} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faTwitter} size="2x" />
+                </a>
+                <a href={val.Gm} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faSignalMessenger} size="2x" />
+                </a>
             </div>
           </div>
           <div className="details details12">
