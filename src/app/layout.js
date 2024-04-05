@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@com/header/Header"; 
 import Footer from "@com/footer/Footer";
 import Loader from "./loading"
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ className:"scrollbar" , subsets: ["latin"] });
 import React from "react";
 import { UserProvider } from '@auth0/nextjs-auth0/client';
 export const metadata = {
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
       <UserProvider>
       <body className={inter.className}>
         
-        <div className="wrapper overflow-y-scroll no-scrollbar">
+        <div className="wrapper overflow-y-scroll  no-scrollbar">
         
         {/* <Suspense fallback={<Loader />}> */}
           <Header />

@@ -30,7 +30,7 @@ export function InfiniteMovingCardsDemo() {
         </div>
       </div>
       <div className="h-[40rem] rounded-md flex flex-col antialiased bg-customColor  dark:bg-grid-white/[0.05] md:flex-c items-center justify-center relative overflow-hidden">
-        <InfiniteMovingCards items={testimonials} direction="right" speed="slow" />
+        <InfiniteMovingCards items={testimonials} direction="right" speed="fast" />
       </div>
     </div>
   );

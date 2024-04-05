@@ -64,9 +64,7 @@ const Footer = () => {
       </footer>
       <div className="legal">
         <p>
-          Copyright ©2024 All rights reserved | This template is made {" "}
-          <FontAwesomeIcon  icon={ faHeart} />
-            by Arnab Chakraborty
+          Copyright ©2024 All rights reserved | For any changes or collab contact 07twik@gmail.com or arnabc857@gmail.com
         </p>
       </div>
     </>

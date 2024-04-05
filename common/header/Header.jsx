@@ -40,18 +40,14 @@ const Header = () => {
             <li>
               <Link href="/">Home</Link>
             </li>
-            <li>
-              <Link href="/joining">Join IEEE</Link>
-            </li>
+            
             <li>
               <Link href='/about'>About</Link>
             </li>
             <li>
               <Link href='/team'>Team</Link>
             </li>
-            <li>
-              <Link href='/Awards'>Awards</Link>
-            </li>
+            
             <li>
               <Link href='/event'>Events</Link>
             </li>
@@ -60,7 +56,7 @@ const Header = () => {
             </li>
           </ul>
           <div className="start">
-            <div className="button">GET CERTIFICATE</div>
+            <div className="button"><Link className="button" href='/contact'>Join IEEE</Link></div>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ?  <FontAwesomeIcon  icon={ faTimes } />:  <FontAwesomeIcon  icon={ faBars } />}

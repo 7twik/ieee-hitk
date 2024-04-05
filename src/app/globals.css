@@ -254,7 +254,11 @@ p {
     height: 30px; ;
   }
 }
+html{
+  scrollbar-width:none !important;
+  scrollbar-color: #1eb2a6 transparent !important;
 
+}
 
 body::-webkit-scrollbar {
   display: none !important;
@@ -278,4 +282,15 @@ body::-webkit-scrollbar {
     background-color: #1eb2a6;
     z-index: 10;
 }
+ .testimonal .items{
+  margin: 10px;
+ }
+}
+
+.flex121{
+  display: flex;
+  
+}
+.headh1{
+  text-shadow: 2px 2px 4px #000000;
 }

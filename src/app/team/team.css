@@ -14,9 +14,19 @@
   box-shadow: 0 4px 16px rgba(31, 38, 135, 0.37); /* Shadow */
   padding: 20px; /* Decrease padding */
 }
+@media(max-width:768px)
+{
+  .overlay{
+    left: -28px;
+  }
+}
 
 .team .img {
   position: relative;
+}
+.mll121{
+  margin-left: 50px;
+  z-index: 100;
 }
 
 .team img {

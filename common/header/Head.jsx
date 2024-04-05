@@ -17,41 +17,15 @@ const Head = () => {
     outerScale={5}
     showSystemCursor={true} />
       <section className='head'>
-        <div className='container flexSB toptop'>
+        <div className='container flexSB toptop justify-between alignmid'>
           <div className='logo'>
             <h1 style={{display:"flex"}}><p style={{width:"20px",minWidth:"20px"}}></p>IEEE</h1>
             <span style={{display:"flex"}}> <p style={{width:"20px",minWidth:"20px"}}></p>IEEE MTT-S HITK SBC CHAPTER</span>
           </div>
-          <div className="social">
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {/* <FontAwesomeIcon icon={faFacebook} /> */}
-            </a>
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-instagram icon"></i>
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-twitter icon"></i>
-            </a>
-            <a
-              href="https://www.youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-youtube icon"></i>
-            </a>
+          <div>
+            <img className="hitksym" src="./images/hitksym.png" alt="ieee logo" />
           </div>
+          
         </div>
       </section>
     </>

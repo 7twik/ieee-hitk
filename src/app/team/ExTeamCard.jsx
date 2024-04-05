@@ -43,7 +43,6 @@ const ExTeamCard = () => {
           <div className="details details12">
             <h2 className="text-white">{val.Name}</h2>
             <h4 className="text-white">{val.Post}</h4>
-            <h4 className="text-white">{val.Gm}</h4>
 
           </div>
         </div>

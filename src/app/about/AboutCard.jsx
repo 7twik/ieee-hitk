@@ -4,7 +4,6 @@ import "./about.css"
 import { homeAbout } from "@const/dummydata"
 import Awrapper from "./Awrapper"
 import LongText from "../LongText"
-import dynamic from "next/dynamic";
 // import Globe from 'react-globe.gl';
 //import {GlobeOut} from "./GlobeOut"
 import Scroll from "./Scroll"
@@ -49,7 +48,6 @@ const AboutCard = () => {
           </div>
         </div>
       </section>
-      <Awrapper />
     </>
   )
 }
