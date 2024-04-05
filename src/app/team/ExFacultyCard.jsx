@@ -50,8 +50,8 @@ const ExFacultyCard = () => {
             </div>
           </div>
           <div className="details details12">
-            <h2>{val.Name}</h2>
-            <h4>{val.Post}</h4>
+            <h2 style={{color:"white"}}>{val.Name}</h2>
+            <h4 style={{color:"white"}}>{val.Post}</h4>
           </div>
         </div>
       ))}

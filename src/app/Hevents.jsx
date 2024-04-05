@@ -51,7 +51,7 @@ const Hevents = async () => {
               />
             </div>
             <div className="text p-4">
-              <div className="admin flex justify-between items-center">
+              <div className="admin flex121 justify-between items-center">
                 <span className="flex items-center">
                   <FontAwesomeIcon
                     icon={faUserAlt}

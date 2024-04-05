@@ -66,7 +66,7 @@ const EEventPage = () => {
           {/* Event gallery */}
           <div className="event-gallery overflow-x-auto mb-6">
             <h2 className="text-lg font-semibold mb-4 text-white">Event Gallery</h2>
-            <div className="flex gap-4">
+            <div className="flex gap-4 hori121">
               {item?.EventGallery.map((image, index) => (
                 <img
                   key={index}
@@ -80,7 +80,7 @@ const EEventPage = () => {
           {/* Speakers */}
           <div className="speakers-container">
             <h2 className="text-lg font-semibold mb-4 text-white">Speakers</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sc121">
               {item?.Speaker && item?.Speaker.map((speaker, index) => (
                 <div key={index} className="speaker-card bg-gray-700 rounded-lg p-4">
                   <div className="relative w-40 h-40 rounded-full overflow-hidden">

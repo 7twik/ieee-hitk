@@ -10,6 +10,10 @@
   font-size: 30px;
   font-weight: 400;
 }
+.flex124{
+  display: flex;
+  flex-direction: column;
+}
 .contacts p {
   color: grey;
 }
@@ -53,3 +57,17 @@ form .flexSB input:nth-child(1) {
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,7 +9,7 @@ import { InfiniteMovingCardsDemo } from "./Infi";
 
 const Home = () => {
   return (
-    <>
+    <div className="scrollbar">
       <Hero />
       <Scroll />
       <AboutCard />
@@ -17,7 +17,7 @@ const Home = () => {
       <Testimonal />
       <InfiniteMovingCardsDemo />
       <Hevents />
-    </>
+    </div>
   );
 };
 

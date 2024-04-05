@@ -51,11 +51,9 @@ const Footer = () => {
             </div>
         </div>
       </footer>
-
-      <div className="legal bg-gray-800 py-4 text-center">
-        <p className="text-gray-400 text-sm">
-          Copyright ©2024 All rights reserved | This template is made{" "}
-          <FontAwesomeIcon icon={faHeart} className="text-red-500" /> by
+      <div className="legal">
+        <p>
+          Copyright ©2024 All rights reserved | For any changes or collab contact 07twik@gmail.com or arnabc857@gmail.com
         </p>
       </div>
     </>

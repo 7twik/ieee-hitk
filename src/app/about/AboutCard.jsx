@@ -3,7 +3,6 @@ import Heading from "@com/heading/Heading"
 import "./about.css"
 import { homeAbout } from "@const/dummydata"
 import LongText from "../LongText"
-import dynamic from "next/dynamic";
 // import Globe from 'react-globe.gl';
 //import {GlobeOut} from "./GlobeOut"
 import Scroll from "./Scroll"

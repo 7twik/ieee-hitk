@@ -254,7 +254,11 @@ p {
     height: 30px; ;
   }
 }
+html{
+  scrollbar-width:none !important;
+  scrollbar-color: #1eb2a6 transparent !important;
 
+}
 
 body::-webkit-scrollbar {
   display: none !important;
@@ -267,4 +271,26 @@ body::-webkit-scrollbar {
 }
 .disflex{
   display: flex;
+}
+@media screen and (max-width: 768px)
+{
+  .mobile-nav {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: #1eb2a6;
+    z-index: 10;
+}
+ .testimonal .items{
+  margin: 10px;
+ }
+}
+
+.flex121{
+  display: flex;
+  
+}
+.headh1{
+  text-shadow: 2px 2px 4px #000000;
 }

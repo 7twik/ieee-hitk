@@ -17,9 +17,15 @@
     background-repeat: no-repeat;
 }
 @media(max-width:750px){
-    .speaker-card{
+    .sc121{
         display: flex;
         flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .hori121{
+        display: flex;
+        flex-direction: row !important;
         gap: 15px;
         align-items: center;
     }

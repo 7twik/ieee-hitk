@@ -140,3 +140,15 @@ html.dark-mode {
   --cursor-color: #fff
 }
 
+.hitksym{ 
+  width:8vw;
+}
+.alignmid{
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .hitksym{
+    width: 40vw;
+  }
+  
+}
