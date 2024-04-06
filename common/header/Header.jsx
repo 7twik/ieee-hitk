@@ -56,7 +56,7 @@ const Header = () => {
             </li>
           </ul>
           <div className="start">
-            <div className="button"><Link className="button" href='/contact'>Join IEEE</Link></div>
+            <div className="button"><Link className="button" href='https://forms.gle/8rpqXe8EAPHWjDHi7'>Join IEEE</Link></div>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ?  <FontAwesomeIcon  icon={ faTimes } />:  <FontAwesomeIcon  icon={ faBars } />}

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -45,14 +45,18 @@ const TeamCard = () => {
                 <a href={val.Tw} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
-                <a href={val.Gm} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={`mailto:${val.Gm}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FontAwesomeIcon icon={faSignalMessenger} size="2x" />
                 </a>
               </div>
             </div>
             <div className="details details12">
-              <h2 style={{color:"white"}}>{val.Name}</h2>
-              <h4 style={{color:"white"}}>{val.Post}</h4>
+              <h2 style={{ color: "white" }}>{val.Name}</h2>
+              <h4 style={{ color: "white" }}>{val.Post}</h4>
             </div>
           </div>
         </div>

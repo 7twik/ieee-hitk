@@ -1,59 +1,136 @@
 import React from "react";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedinIn, faTwitter, faInstagram, faHeart } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedinIn,
+  faFacebook,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import { AnimatedTooltipPreview } from "./tips";
 
 const Footer = () => {
   return (
     <>
-      <footer className="py-12">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="flex justify-start items-center">
-            
-            <div className="box logo">
-              <h1 className="text-white text-2xl font-bold">IEEE-HITK</h1>
-              <span className="text-gray-400 text-sm">Advance Technology for humanity</span>
-              
-              <div className="flex mt-4">
-                <FontAwesomeIcon icon={faLinkedinIn} className="text-blue-500 text-2xl mr-4 hover:text-blue-500 transition duration-300" style={{color: "#1eb2a6"}} />
-                <FontAwesomeIcon icon={faTwitter} className="text-blue-500 text-2xl mr-4 hover:text-blue-500 transition duration-300" style={{color: "#1eb2a6"}} />
-                <FontAwesomeIcon icon={faInstagram} className="text-blue-500 text-2xl mr-4 hover:text-blue-500 transition duration-300" style={{color: "#1eb2a6"}} />
-              </div>
-              <div className="box link">
+      <footer className="py-12 bg-gray-900">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+          <div className="box logo">
+            <h1 className="text-white text-2xl font-bold">IEEE-HITK</h1>
+            <span className="text-gray-400 text-sm">
+              Advancing Technology for Humanity
+            </span>
+            <div className="flex mt-4">
+              <a href="https://www.linkedin.com/company/ieee-mtts-hitk-sbc/" className="mr-4">
+                <FontAwesomeIcon
+                  icon={faLinkedinIn}
+                  className="text-white text-lg hover:text-blue-400 transition duration-300"
+                />
+              </a>
+              <a href="https://www.facebook.com/ieee.mtts.sbc.hitk?mibextid=ZbWKwL" className="mr-4">
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className="text-white text-lg hover:text-blue-400 transition duration-300"
+                />
+              </a>
+              <a href="https://www.instagram.com/ieee_mtts.hitk?igsh=c2x5bHZvcWxlbXJi" className="mr-4">
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="text-white text-lg hover:text-blue-400 transition duration-300"
+                />
+              </a>
+            </div>
+          </div>
+          <div className="box link">
             <h3 className="text-white">Explore</h3>
-            <ul>
-              <li className="text-white">About Us</li>
-              <li className="text-white">Services</li>
-              <li className="text-white">Blog</li>
-              <li className="text-white">Contact us</li>
+            <ul className="text-white hover:text-cyan-600">
+              <li>
+                <a href="/about">About Us</a>
+              </li>
+              <li>
+                <a href="#">Features</a>
+              </li>
+              <li>
+                <a href="/team">Meet the Team</a>
+              </li>
+              <li>
+                <a href="/contact">Feedback</a>
+              </li>
             </ul>
           </div>
-            </div>
-          </div>
-          <div className="boxxxx">
-            <h2 style={{color:"white"}}>Meet the devs!</h2>
+          <div className="box developer">
+            <h2 className="text-white mb-4 md:mb-0">Meet the devs!</h2>
+
             <AnimatedTooltipPreview />
-          </div>
-          <div className="box contact-us mr-6">
-              <h3 className="text-white text-lg font-semibold">Contact Us</h3>
-              <div className="text-gray-400 text-sm mt-2">
-                <p>
-                  <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-                  <a href="mailto:support@admin.com" className="hover:text-blue-500">support@admin.com</a>
+
+            <div className="flex md:flex-row flex-col md:justify-between">
+              <div className="md:w-1/2 w-full md:mb-0 mb-8">
+                <div>
+                  <h1 className="text-white">Satwik Das</h1>
+                  <p className="text-gray-400 text-sm">
+                    2x Hackathon Winner || GDSC Core HIT - Backend Dev ||
+                    Ex-Intern @IQApexLabs 👨‍💻 || Full Stack Dev || MERN ||
+                    Next.JS || GenAI || Flask | FastAPI || Blockchain Dev🔗 ||
+                    HITK ECE '25
+                  </p>
+                  <h3 className="text-white mt-4">Connect with Satwik</h3>
+                  <div className="flex">
+                    <a href="https://in.linkedin.com/in/sattwik-das-90aa75249" className="mr-4">
+                      <FontAwesomeIcon
+                        icon={faLinkedinIn}
+                        className="text-white text-lg hover:text-blue-400 transition duration-300"
+                      />
+                    </a>
+                    <a href="#" className="mr-4">
+                      <FontAwesomeIcon
+                        icon={faTwitter}
+                        className="text-white text-lg hover:text-blue-400 transition duration-300"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="md:w-1/2 w-full">
+                <h1 className="text-white">Arnab Chakraborty</h1>
+                <p className="text-gray-400 text-sm">
+                  Fullstack Dev || Devops Enthusiast || MERN,Next.JS ||
+                  NeonDB,DrizzleORM || HITK ECE '25
                 </p>
-                <p>
-                  <FontAwesomeIcon icon={faPhoneAlt} className="mr-2" />
-                  <a href="tel:+917007886700" className="hover:text-blue-500">(+91)700-788-67-00</a>
-                </p>
+                <h3 className="text-white mt-4">Connect with Arnab</h3>
+                <div className="flex">
+                  <a href="#" className="mr-4">
+                    <FontAwesomeIcon
+                      icon={faLinkedinIn}
+                      className="text-white text-lg hover:text-blue-400 transition duration-300"
+                    />
+                  </a>
+                  <a href="#" className="mr-4">
+                    <FontAwesomeIcon
+                      icon={faTwitter}
+                      className="text-white text-lg hover:text-blue-400 transition duration-300"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
+          </div>
         </div>
       </footer>
-      <div className="legal">
-        <p>
-          Copyright ©2024 All rights reserved | For any changes or collab contact 07twik@gmail.com or arnabc857@gmail.com
+      <div className="legal bg-gray-800 text-center py-4">
+        <p className="text-gray-400 text-sm">
+          © 2024 All rights reserved | For any changes or collaboration, contact{" "}
+          <a
+            href="mailto:07twik@gmail.com"
+            className="text-white hover:text-gray-300 transition duration-300"
+          >
+            07twik@gmail.com
+          </a>{" "}
+          or{" "}
+          <a
+            href="mailto:arnabc857@gmail.com"
+            className="text-white hover:text-gray-300 transition duration-300"
+          >
+            arnabc857@gmail.com
+          </a>
         </p>
       </div>
     </>

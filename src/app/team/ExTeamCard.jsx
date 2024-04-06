@@ -46,7 +46,11 @@ const ExTeamCard = () => {
                 <a href={val.Tw} target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
-                <a href={val.Gm} target="_blank" rel="noopener noreferrer">
+                <a
+                  href={`mailto:${val.Gm}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FontAwesomeIcon icon={faSignalMessenger} size="2x" />
                 </a>
             </div>
