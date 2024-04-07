@@ -202,7 +202,7 @@ const TestAdd = () => {
                                   <hr style={{marginTop:"10px"}} /></li>
                               )) : <>No pic yet</>}
                               <li>
-                                  <input type="text" placeholder="enter url of next pic" value={galleryInput} onChange={handleEditGalleryInputChange} />
+                                  <input style={{color:"black"}} type="text" placeholder="enter url of next pic" value={galleryInput} onChange={handleEditGalleryInputChange} />
                                   <button style={{marginLeft:"10px"}} onClick={() => handleAddGallery(index)}>Add</button>
                               </li>
                           </ul>
