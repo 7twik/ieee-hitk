@@ -90,7 +90,7 @@ const Footer = () => {
                   <h1 className="text-white text-mm">Sattwik Das</h1>
                   <p className="text-gray-400 text-sm">
                     2x Hackathon🏆<br/>
-                    Ex @IQApexLabs👨‍💻<br/>Ex @GDSC-Core, Backend Dev'24 🚀<br/>
+                    Ex @IQApexLabs👨‍💻<br/>Ex @GDSC-Core'24 🚀<br/>
                     MERN 🖥️ | Next ⚛️ | GenAI 🧠<br/>
                     Flask🐍 | FastAPI⚡| Solidity 🔗<br/>
                     ECE'25 📱🔌
