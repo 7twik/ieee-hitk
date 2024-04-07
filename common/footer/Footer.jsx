@@ -15,11 +15,11 @@ const Footer = () => {
       <footer className="py-12 bg-gray-900">
         <div className="footer151">
           <div className="box logo">
-            <h1 className="text-white text-2xl font-bold">IEEE-HITK</h1>
-            <span className="text-gray-400 text-sm">
+            <h1 className="text-white text-2xl font-bold ta158">IEEE-HITK</h1>
+            <span className="text-gray-400 text-sm ta158">
               Advancing Technology for Humanity
             </span>
-            <div className="flex mt-4">
+            <div className="dflex124 mt-4">
               <a href="https://www.linkedin.com/company/ieee-mtts-hitk-sbc/" className="mr-4">
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
           
           <div className="box developer">
-            <h2 className="text-white mb-4 md:mb-0 text-mm">Meet the devs!</h2>
+            <h2 className="text-white mb-4 md:mb-0 text-mm ta158">Meet the devs!</h2>
 
             
 
@@ -61,7 +61,7 @@ const Footer = () => {
                     ECE '25 📱🔌
                   </p>
                   <h3 className="text-white mt-4">Connect with Arnab</h3>
-                  <div className="flex smmid151">
+                  <div className="dflex124 smmid151">
                       <a href="https://www.linkedin.com/in/arnab-chakraborty-737492230" className="mr-4">
                         <FontAwesomeIcon
                           icon={faLinkedinIn}
@@ -96,7 +96,7 @@ const Footer = () => {
                     ECE'25 📱🔌
                   </p>
                   <h3 className="text-white mt-4">Connect with Sattwik</h3>
-                  <div className="flex smmid151">
+                  <div className="dflex124 smmid151">
                     <a href="https://in.linkedin.com/in/sattwik-das-90aa75249" className="mr-4">
                       <FontAwesomeIcon
                         icon={faLinkedinIn}
