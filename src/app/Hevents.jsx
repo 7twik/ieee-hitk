@@ -52,14 +52,7 @@ const Hevents = async () => {
             </div>
             <div className="text p-4">
               <div className="admin flex121 justify-between items-center">
-                <span className="flex items-center">
-                  <FontAwesomeIcon
-                    icon={faUserAlt}
-                    style={{ fontSize: "12px" }}
-                    className="mr-2"
-                  />
-                  <label htmlFor="">{val?.EventType}</label>
-                </span>
+                
                 <span>
                   <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" />
                   <label htmlFor="">{val?.Time}</label>
@@ -74,9 +67,9 @@ const Hevents = async () => {
                 </span>
               </div>
               <h1 className="text-lg font-bold mt-2">{val?.Name}</h1>
-              <p>{val?.EventDetails}</p>
+              
               <button onClick={handleButtonClick}>
-                more events
+                More events/  Know More
               </button>{" "}
             </div>
           </div>
