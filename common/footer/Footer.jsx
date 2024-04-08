@@ -52,7 +52,7 @@ const Footer = () => {
                 <AnimatedTooltipA />
                 <div className="box151">
                   <h1 className="text-white text-mm">Arnab Chakraborty</h1>
-                  <p className="text-gray-400 text-sm">
+                  <p className="text-gray-400 text-smm">
                     1x Hackathon🏆<br/>
                     Fullstack Dev  🛠️ <br/> 
                     Devops Enthusiast 🔄 <br/> 
@@ -88,7 +88,7 @@ const Footer = () => {
                 <AnimatedTooltipS />
                 <div className="box151">
                   <h1 className="text-white text-mm">Sattwik Das</h1>
-                  <p className="text-gray-400 text-sm">
+                  <p className="text-gray-400 text-smm">
                     2x Hackathon🏆<br/>
                     Ex @IQApexLabs👨‍💻<br/>Ex @GDSC-Core'24 🚀<br/>
                     MERN 🖥️ | Next ⚛️ | GenAI 🧠<br/>
