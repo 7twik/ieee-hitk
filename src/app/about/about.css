@@ -161,6 +161,12 @@
   height: 100vw !important;
 
 }
+.flexSB{
+  flex-direction: column-reverse !important;
+}
+.left img{
+  display: none;
+}
 }
 
 #globeViz {
