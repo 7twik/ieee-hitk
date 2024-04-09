@@ -31,12 +31,12 @@ const Faculties = () => {
       <section className='testimonal padding'>
         <div className='container'>
         <Heading  title='Our Faculty Advisor'  />
-          <div className='content grid2'>
+          <div className='content dflex151'>
             {team.map((val,key) => (
               <div key={key} className='items shadow'>
                 <div className='box flex'>
                   <div className='img'>
-                    <img src={val.Image} alt='' />
+                    <img className="img22" src={val.Image} alt='' />
                     
                   </div>
                   <div className='name'>
