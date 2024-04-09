@@ -7,7 +7,7 @@ const Hero = () => {
       <section className='hero'>
         <div className='container con121'>
           <div className='row row121'>
-            <Heading subtitle='WELCOME TO IEEE' title='Advance technology for future' />
+            <Heading subtitle='WELCOME TO IEEE' title='Advance technology for humanity' />
           </div>
         </div>
       </section>
