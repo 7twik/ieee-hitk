@@ -34,11 +34,12 @@ const Faculties = () => {
           <div className='content dflex151'>
             {team.map((val,key) => (
               <div key={key} className='items shadow'>
-                <div className='box flex'>
-                  <div className='img'>
+                                  <div className='img'>
                     <img className="img22" src={val.Image} alt='' />
                     
                   </div>
+                <div className='box flex'>
+
                   <div className='name'>
                     <h2>{val.Name}</h2>
                     <span>{val.Post}</span>
