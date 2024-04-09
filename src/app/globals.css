@@ -166,7 +166,8 @@ p {
 }
 
 .back {
-  background-image: url("https://images.unsplash.com/photo-1592659762303-90081d34b277?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8fDA%3D");
+  /* background-image: url("https://images.unsplash.com/photo-1592659762303-90081d34b277?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZWxlY3Ryb25pY3N8ZW58MHx8MHx8fDA%3D"); */
+  background-image: url("../../public/images/back.webp");
   background-size: cover;
   background-attachment: fixed;
   position: relative; /* Change position to relative */

@@ -1,5 +1,7 @@
 .hero {
-  background-image: url("https://source.unsplash.com/1600x900/?electronics"); 
+  /* background-image: url("https://source.unsplash.com/1600x900/?electronics");  */
+  background-image: url("../../public/images/bacc.webp");
+
   background-size: cover;
   background-attachment: fixed;
   position: relative;
