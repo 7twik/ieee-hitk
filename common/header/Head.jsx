@@ -20,7 +20,7 @@ const Head = () => {
         <div className='container flexSB toptop justify-between alignmid'>
           <div className='logo'>
             <h1 style={{display:"flex"}}><p style={{width:"20px",minWidth:"20px"}}></p>IEEE</h1>
-            <span style={{display:"flex"}}> <p style={{width:"20px",minWidth:"20px"}}></p>IEEE MTT-S HITK SBC CHAPTER</span>
+            <span style={{display:"flex"}}> <p style={{width:"20px",minWidth:"20px"}}></p>IEEE MTT-S HITK STUDENTS BRANCH CHAPTER</span>
           </div>
           <div>
             <img className="hitksym" src="./images/hitksym.png" alt="ieee logo" />

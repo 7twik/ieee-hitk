@@ -55,9 +55,7 @@ PO:East Kolkata Township, Kolkata 700 107</p>
         </div>
         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-          <a className="text-indigo-500 leading-relaxed">admin@heritageit.edu</a>
-          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-          <p className="leading-relaxed">9830201234</p>
+          <a className="text-indigo-500 leading-relaxed">ieee-mtts-hitk@heritageit.edu</a>
         </div>
       </div>
     </div>
@@ -65,11 +63,11 @@ PO:East Kolkata Township, Kolkata 700 107</p>
     <div className='content grid2 flex124'>
             {team.map((val,key) => (
               <div key={key} className='items shadow'>
-                <div className='box flex'>
-                  <div className='img'>
+                <div className='img'>
                     <img src={val.Image} alt='' />
                     
                   </div>
+                <div className='box flex'>
                   <div className='name'>
                     <h2>{val.Name}</h2>
                     <span>{val.Post}</span>
