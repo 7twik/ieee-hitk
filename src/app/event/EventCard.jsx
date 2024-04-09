@@ -56,17 +56,15 @@ const EventCard = async () => {
                   <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" />
                   <label htmlFor="">{val.Time}</label>
                 </span>
-                <span className="flex items-center">
-                  <FontAwesomeIcon
+                
+              </div>
+              <h1 className="text-lg font-bold mt-2">{val.Name}</h1>
+              <p className="text-gray-600"> <FontAwesomeIcon
                     icon={faComments}
                     style={{ fontSize: "12px" }}
                     className="mr-2"
-                  />
-                  <label htmlFor="">{val.EventDetails}</label>
-                </span>
-              </div>
-              <h1 className="text-lg font-bold mt-2">{val.Name}</h1>
-              <p className="text-gray-600">{val.Venue}</p>
+                  />Venue: {val.Venue}</p>
+                  <br/>
               {/* Apply vertical scroll on small screens */}
               {/* <div className="event-gallery mt-4 overflow-y-auto max-h-48">
                 <h2 className="text-lg font-semibold mb-2">Event Gallery</h2>
@@ -81,6 +79,10 @@ const EventCard = async () => {
                   ))}
                 </div>
               </div> */}
+              <span className="flex items-center">
+                 
+                  <label htmlFor="">{val.EventDetails.slice(0,100)}</label>
+                </span>
               <button
                 onClick={handleKnowMore}
                 className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
