@@ -33,9 +33,8 @@
 
 .details12 h2, .details12 h4 {
   margin: 5px 0;
-  overflow: hidden; /* Prevent overflow */
-  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
-  white-space: nowrap; /* Prevent text wrapping */
+  white-space: normal; /* Allow text to wrap to the next line */
+  word-break: keep-all; /* Add line breaks to the text */
 }
 
 .overlay {
