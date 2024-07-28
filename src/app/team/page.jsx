@@ -29,10 +29,10 @@ const Team = () => {
   return (
     <>
       <Back title="Team" />
-      <div className="inline-block relative">
+      <div className="inline-block relative mll121">
         <button
           onClick={toggleDropdown}
-          className="inline-flex mll121 items-center px-4 py-2 bg-gray-300 text-gray-700 font-semibold rounded hover:bg-gray-400 focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-50"
+          className="inline-flex items-center px-4 py-2 bg-gray-300 text-gray-700 font-semibold rounded hover:bg-gray-400 focus:outline-none focus:ring focus:ring-gray-500 focus:ring-opacity-50"
         >
           <span>{selectedOption === "current" ? "Current Team" : selectedOption === "ex" ? "Ex Team" : selectedOption === "faculties" ? "Faculties" : "Ex Faculties"}</span>
           <svg
@@ -49,7 +49,7 @@ const Team = () => {
           </svg>
         </button>
         {isDropdownOpen && (
-          <div className="origin-top-right mll121 absolute right-0 mx-15 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+          <div className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10">
             <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
               <button
                 onClick={() => handleOptionChange("current")}
