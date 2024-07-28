@@ -43,9 +43,6 @@ const Footer = () => {
           
           <div className="box developer">
             <h2 className="text-white mb-4 md:mb-0 text-mm ta158">Meet the devs!</h2>
-
-            
-
             <div className="flex md:flex-row flex-col md:justify-between">
             <div className="devbox151">
                 
@@ -57,7 +54,7 @@ const Footer = () => {
                     Fullstack Dev  🛠️ <br/> 
                     Devops Enthusiast 🔄 <br/> 
                     MERN 🖥️| Next ⚛️ <br/>
-                    NeonDB 💡 | DrizzleORM 💧 <br/> 
+                    AWS ☁️ | Trpc 💧| kafka 🕸<br/> 
                     ECE '25 📱🔌
                   </p>
                   <h3 className="text-white mt-4">Connect with Arnab</h3>
