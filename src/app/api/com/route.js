@@ -1,5 +1,5 @@
 import { NextResponse,NextRequest } from "next/server";
-import {getComData,postComData,delComData} from '@cont/com';
+import {getComData,postComData,delComData, updateComData} from '@cont/com';
 export async function GET(){
     try{
         const {data,err} = await getComData();
@@ -41,7 +41,27 @@ export async function POST(req,res){
         });
     }
 }
-
+export async function PUT(req) {
+    try {
+        let dataa = await req.json();
+        console.log(dataa);
+        const { data, err } = await updateComData(dataa);
+        if (err) {
+            throw new Error(err);
+        }
+        return NextResponse.json({
+            data: data,
+            message: "Updated successfully!",
+        });
+    } catch (error) {
+        console.log('Error updating Com dataaa:', error);
+        return NextResponse.json({
+            data: [],
+            error: error,
+            message: "Error updating Com data",
+        });
+    }
+}
 export async function DELETE(req,res){
     try{
         //console.log(await req.json());
