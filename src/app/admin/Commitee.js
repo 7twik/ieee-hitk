@@ -87,7 +87,7 @@ const Committee = () => {
             Status: status
         };
 
-        const url = editMode ? `/api/com/${currentId}` : '/api/com';
+        const url = editMode ? `/api/com` : '/api/com';
         const method = editMode ? 'PUT' : 'POST';
 
         fetch(url, {

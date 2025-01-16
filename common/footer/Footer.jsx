@@ -50,11 +50,7 @@ const Footer = () => {
                 <div className="box151">
                   <h1 className="text-white text-mm">Arnab Chakraborty</h1>
                   <p className="text-gray-400 text-smm">
-                    1x Hackathon🏆<br/>
-                    Fullstack Dev  🛠️ <br/> 
-                    Devops Enthusiast 🔄 <br/> 
-                    MERN 🖥️| Next ⚛️ <br/>
-                    AWS ☁️ | Trpc 💧| kafka 🕸<br/> 
+                      Fullstack Dev  🛠️
                     ECE '25 📱🔌
                   </p>
                   <h3 className="text-white mt-4">Connect with Arnab</h3>
@@ -85,11 +81,9 @@ const Footer = () => {
                 <AnimatedTooltipS />
                 <div className="box151">
                   <h1 className="text-white text-mm">Sattwik Das</h1>
+                  {/* make this area a dropdown */}
                   <p className="text-gray-400 text-smm">
-                    2x Hackathon🏆<br/>
-                    Ex @IQApexLabs👨‍💻<br/>Ex @GDSC-Core'24 🚀<br/>
-                    MERN 🖥️ | Next ⚛️ | GenAI 🧠<br/>
-                    Flask🐍 | FastAPI⚡| Solidity 🔗<br/>
+                    MERN | Next.js
                     ECE'25 📱🔌
                   </p>
                   <h3 className="text-white mt-4">Connect with Sattwik</h3>

@@ -258,9 +258,8 @@ p {
   }
 }
 html{
-  scrollbar-width:none !important;
   scrollbar-color: #1eb2a6 transparent !important;
-
+  scrollbar-width: thin !important;
 }
 
 body::-webkit-scrollbar {
@@ -270,7 +269,7 @@ body::-webkit-scrollbar {
   display: none !important;
 }
 .scroll {
-  scrollbar-width: none !important;
+  scrollbar-width: thin !important;
 }
 .disflex{
   display: flex;
